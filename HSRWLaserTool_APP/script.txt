@@ -1,0 +1,9 @@
+open_gerber /home/pi/HRSWLaserTool/Gui/GerberDesign/CAMOutputs/GerberFiles/copper_top.gbr
+isolate copper_top.gbr -dia 0.1 -passes 1 -overlap 90 -combine 1 -outname pcb
+add_rectangle pcb 0 0 160 100
+offset pcb 90 70
+offset copper_top.gbr 90 70 
+mirror copper_top.gbr -box pcb -axis X
+ncc copper_top.gbr -tooldia 0.2 -overlap 10 -margin 1 -method combine -all -outname isolatio_route
+cncjob isolatio_route -z_cut -0.02 -z_move 0.02 -feedrate 2000 -spindlespeed 100
+write_gcode isolatio_route_cnc /home/pi/HRSWLaserTool/Gui/gcode.txt

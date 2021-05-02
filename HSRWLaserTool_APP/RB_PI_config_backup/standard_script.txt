@@ -1,0 +1,9 @@
+open_gerber FILE_DIRECTORY
+isolate FILE_NAME -dia 0.1 -passes 1 -overlap 90 -combine 1 -outname pcb
+add_rectangle pcb 0 0 WIDTH HEIGHT
+offset pcb X_CONTOUR Y_CONTOUR
+offset FILE_NAME X_OFSET Y_OFSET 
+mirror FILE_NAME -box pcb -axis AXISNAME
+METHOD
+cncjob isolatio_route -z_cut -0.02 -z_move 0.02 -feedrate FEEDR -spindlespeed SS
+write_gcode isolatio_route_cnc DIRECTORY

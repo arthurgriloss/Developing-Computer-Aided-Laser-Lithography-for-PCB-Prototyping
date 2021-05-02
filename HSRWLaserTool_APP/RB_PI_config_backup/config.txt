@@ -1,0 +1,9 @@
+/home/pi/HRSWLaserTool/Gui/FlatCAM_beta_8.994_sources
+/home/pi/HRSWLaserTool/Gui
+/dev/ttyUSB0
+
+#########################################
+1. FlaCAM directory
+2. Application directory
+3. USB port
+#########################################

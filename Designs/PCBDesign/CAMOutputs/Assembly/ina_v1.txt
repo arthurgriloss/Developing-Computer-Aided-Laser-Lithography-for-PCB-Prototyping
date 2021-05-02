@@ -1,0 +1,8 @@
+Partlist exported from C:/Users/FKR/sciebo/projekte/eagle/imoe/instrumentation_amplifier/ina_v1.sch at 09/03/2021 18:42
+
+Qty Value  Device         Package      Parts                  Description                
+1          PINHD-1X9/90   1X09/90      JP1                    PIN HEADER                 
+6   100k   R-EU_R1206     R1206        R1, R3, R4, R5, R6, R7 RESISTOR, European symbol  
+2   100n   C-EUC1206      C1206        C1, C2                 CAPACITOR, European symbol 
+1   10k    R-TRIMMTSM53YJ RTRIMTSM53YJ R2                     Trimm resistor             
+1   LM324D LM324D         SO14         IC1                    OP AMP                     

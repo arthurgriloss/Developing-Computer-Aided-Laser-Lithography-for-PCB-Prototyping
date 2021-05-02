@@ -1,0 +1,1975 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QFrame" name="DropShadowFrame">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 240, 112);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>-120</x>
+         <y>0</y>
+         <width>441</width>
+         <height>581</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Calibri Light</family>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>Images/5782258-circuit-png-images-vector-and-psd-files-free-download-on-pngtree-circuits-png-360_360.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>420</x>
+         <y>0</y>
+         <width>381</width>
+         <height>471</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>Images/favpng_electrical-network-printed-circuit-board-electronic-circuit-electronics.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>88</y>
+         <width>561</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>14</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0);</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;SELECT THE EMPLOYED PINS:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="browse_button">
+       <property name="geometry">
+        <rect>
+         <x>650</x>
+         <y>30</y>
+         <width>121</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	background-color:rgb(0, 240, 112);
+	border-style: outset;
+	border-width: 2px;
+	border-color: white;
+	color:rgb(255, 255, 255);
+	border-radius: 10px;
+}
+QPushButton:hover{
+	background-color:rgb(0, 255, 119);
+}
+QPushButton:pressed{
+	background-color:rgb(0, 143, 66);
+}</string>
+       </property>
+       <property name="text">
+        <string>Browse</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>Images/clipart1547514.png</normaloff>Images/clipart1547514.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="next_button">
+       <property name="geometry">
+        <rect>
+         <x>580</x>
+         <y>400</y>
+         <width>191</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	background-color:rgb(0, 240, 112);
+	color:rgb(255, 255, 255);
+	border-radius: 30px;
+}
+QPushButton:hover{
+	background-color:rgb(0, 255, 119);
+}
+QPushButton:pressed{
+	background-color:rgb(0, 143, 66);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>Images/pngfind.com-start-button-png-3164705.png</normaloff>Images/pngfind.com-start-button-png-3164705.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>190</width>
+         <height>80</height>
+        </size>
+       </property>
+       <property name="checkable">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QGroupBox" name="groupBox">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>130</y>
+         <width>561</width>
+         <height>261</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+border-radius: 10px;</string>
+       </property>
+       <widget class="QWidget" name="layoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>-2</y>
+          <width>541</width>
+          <height>261</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_10">
+         <item row="2" column="0">
+          <layout class="QGridLayout" name="gridLayout_7">
+           <item row="0" column="1">
+            <widget class="QCheckBox" name="b2">
+             <property name="text">
+              <string>B2</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="3">
+            <widget class="QCheckBox" name="d2">
+             <property name="text">
+              <string>D2</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="7">
+            <widget class="QCheckBox" name="h2">
+             <property name="text">
+              <string>H2</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="9">
+            <widget class="QCheckBox" name="j2">
+             <property name="text">
+              <string>J2</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="10">
+            <widget class="QCheckBox" name="k2">
+             <property name="text">
+              <string>K2</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="QCheckBox" name="a2">
+             <property name="text">
+              <string>A2</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="8">
+            <widget class="QCheckBox" name="i2">
+             <property name="text">
+              <string>I2</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="6">
+            <widget class="QCheckBox" name="g2">
+             <property name="text">
+              <string>G2</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="5">
+            <widget class="QCheckBox" name="f2">
+             <property name="text">
+              <string>F2</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="4">
+            <widget class="QCheckBox" name="e2">
+             <property name="text">
+              <string>E2</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="2">
+            <widget class="QCheckBox" name="c2">
+             <property name="text">
+              <string>C2</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="7" column="0">
+          <layout class="QGridLayout" name="gridLayout_2">
+           <item row="0" column="0">
+            <widget class="QCheckBox" name="a7">
+             <property name="text">
+              <string>A7</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QCheckBox" name="b7">
+             <property name="text">
+              <string>B7</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="2">
+            <widget class="QCheckBox" name="c7">
+             <property name="text">
+              <string>C7</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="3">
+            <widget class="QCheckBox" name="d7">
+             <property name="text">
+              <string>D7</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="4">
+            <widget class="QCheckBox" name="e7">
+             <property name="text">
+              <string>E7</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="5">
+            <widget class="QCheckBox" name="f7">
+             <property name="text">
+              <string>F7</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="6">
+            <widget class="QCheckBox" name="g7">
+             <property name="text">
+              <string>G7</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="7">
+            <widget class="QCheckBox" name="h7">
+             <property name="text">
+              <string>H7</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="8">
+            <widget class="QCheckBox" name="i7">
+             <property name="text">
+              <string>I7</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="9">
+            <widget class="QCheckBox" name="j7">
+             <property name="text">
+              <string>J7</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="10">
+            <widget class="QCheckBox" name="k7">
+             <property name="text">
+              <string>K7</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="3" column="0">
+          <layout class="QGridLayout" name="gridLayout_6">
+           <item row="0" column="0">
+            <widget class="QCheckBox" name="a3">
+             <property name="text">
+              <string>A3</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QCheckBox" name="b3">
+             <property name="text">
+              <string>B3</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="2">
+            <widget class="QCheckBox" name="c3">
+             <property name="text">
+              <string>C3</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="3">
+            <widget class="QCheckBox" name="d3">
+             <property name="text">
+              <string>D3</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="4">
+            <widget class="QCheckBox" name="e3">
+             <property name="text">
+              <string>E3</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="5">
+            <widget class="QCheckBox" name="f3">
+             <property name="text">
+              <string>F3</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="6">
+            <widget class="QCheckBox" name="g3">
+             <property name="text">
+              <string>G3</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="7">
+            <widget class="QCheckBox" name="h3">
+             <property name="text">
+              <string>H3</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="8">
+            <widget class="QCheckBox" name="i3">
+             <property name="text">
+              <string>I3</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="9">
+            <widget class="QCheckBox" name="j3">
+             <property name="text">
+              <string>J3</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="10">
+            <widget class="QCheckBox" name="k3">
+             <property name="text">
+              <string>K3</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="1" column="0">
+          <layout class="QGridLayout" name="gridLayout_8">
+           <item row="0" column="0">
+            <widget class="QCheckBox" name="a1">
+             <property name="text">
+              <string>A1</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QCheckBox" name="b1">
+             <property name="text">
+              <string>B1</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="2">
+            <widget class="QCheckBox" name="c1">
+             <property name="text">
+              <string>C1</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="3">
+            <widget class="QCheckBox" name="d1">
+             <property name="text">
+              <string>D1</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="4">
+            <widget class="QCheckBox" name="e1">
+             <property name="text">
+              <string>E1</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="5">
+            <widget class="QCheckBox" name="f1">
+             <property name="text">
+              <string>F1</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="6">
+            <widget class="QCheckBox" name="g1">
+             <property name="text">
+              <string>G1</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="7">
+            <widget class="QCheckBox" name="h1">
+             <property name="text">
+              <string>H1</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="8">
+            <widget class="QCheckBox" name="i1">
+             <property name="text">
+              <string>I1</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="9">
+            <widget class="QCheckBox" name="j1">
+             <property name="text">
+              <string>J1</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="10">
+            <widget class="QCheckBox" name="k1">
+             <property name="text">
+              <string>K1</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="0" column="0">
+          <layout class="QGridLayout" name="gridLayout_9">
+           <item row="0" column="0">
+            <widget class="QCheckBox" name="a0">
+             <property name="text">
+              <string>A0</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QCheckBox" name="b0">
+             <property name="text">
+              <string>B0</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="2">
+            <widget class="QCheckBox" name="c0">
+             <property name="text">
+              <string>C0</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="3">
+            <widget class="QCheckBox" name="d0">
+             <property name="text">
+              <string>D0</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="4">
+            <widget class="QCheckBox" name="e0">
+             <property name="text">
+              <string>E0</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="5">
+            <widget class="QCheckBox" name="f0">
+             <property name="text">
+              <string>F0</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="6">
+            <widget class="QCheckBox" name="g0">
+             <property name="text">
+              <string>G0</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="7">
+            <widget class="QCheckBox" name="h0">
+             <property name="text">
+              <string>H0</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="8">
+            <widget class="QCheckBox" name="i0">
+             <property name="text">
+              <string>I0</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="9">
+            <widget class="QCheckBox" name="j0">
+             <property name="text">
+              <string>J0</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="10">
+            <widget class="QCheckBox" name="k0">
+             <property name="text">
+              <string>K0</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="6" column="0">
+          <layout class="QGridLayout" name="gridLayout_3">
+           <item row="0" column="4">
+            <widget class="QCheckBox" name="e6">
+             <property name="text">
+              <string>E6</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="10">
+            <widget class="QCheckBox" name="k6">
+             <property name="text">
+              <string>K6</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="9">
+            <widget class="QCheckBox" name="j6">
+             <property name="text">
+              <string>J6</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="8">
+            <widget class="QCheckBox" name="i6">
+             <property name="text">
+              <string>I6</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="6">
+            <widget class="QCheckBox" name="g6">
+             <property name="text">
+              <string>G6</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="3">
+            <widget class="QCheckBox" name="d6">
+             <property name="text">
+              <string>D6</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QCheckBox" name="b6">
+             <property name="text">
+              <string>B6</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="7">
+            <widget class="QCheckBox" name="h6">
+             <property name="text">
+              <string>H6</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="5">
+            <widget class="QCheckBox" name="f6">
+             <property name="text">
+              <string>F6</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="QCheckBox" name="a6">
+             <property name="text">
+              <string>A6</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="2">
+            <widget class="QCheckBox" name="c6">
+             <property name="text">
+              <string>C6</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="5" column="0">
+          <layout class="QGridLayout" name="gridLayout_4">
+           <item row="0" column="0">
+            <widget class="QCheckBox" name="a5">
+             <property name="text">
+              <string>A5</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QCheckBox" name="b5">
+             <property name="text">
+              <string>B5</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="2">
+            <widget class="QCheckBox" name="c5">
+             <property name="text">
+              <string>C5</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="3">
+            <widget class="QCheckBox" name="d5">
+             <property name="text">
+              <string>D5</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="4">
+            <widget class="QCheckBox" name="e5">
+             <property name="text">
+              <string>E5</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="5">
+            <widget class="QCheckBox" name="f5">
+             <property name="text">
+              <string>F5</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="6">
+            <widget class="QCheckBox" name="g5">
+             <property name="text">
+              <string>G5</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="7">
+            <widget class="QCheckBox" name="h5">
+             <property name="text">
+              <string>H5</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="8">
+            <widget class="QCheckBox" name="i5">
+             <property name="text">
+              <string>I5</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="9">
+            <widget class="QCheckBox" name="j5">
+             <property name="text">
+              <string>J5</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="10">
+            <widget class="QCheckBox" name="k5">
+             <property name="text">
+              <string>K5</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="4" column="0">
+          <layout class="QGridLayout" name="gridLayout_5">
+           <item row="0" column="0">
+            <widget class="QCheckBox" name="a4">
+             <property name="text">
+              <string>A4</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QCheckBox" name="b4">
+             <property name="text">
+              <string>B4</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="2">
+            <widget class="QCheckBox" name="c4">
+             <property name="text">
+              <string>C4</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="3">
+            <widget class="QCheckBox" name="d4">
+             <property name="text">
+              <string>D4</string>
+             </property>
+             <property name="checked">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="4">
+            <widget class="QCheckBox" name="e4">
+             <property name="text">
+              <string>E4</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="5">
+            <widget class="QCheckBox" name="f4">
+             <property name="text">
+              <string>F4</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="6">
+            <widget class="QCheckBox" name="g4">
+             <property name="text">
+              <string>G4</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="7">
+            <widget class="QCheckBox" name="h4">
+             <property name="text">
+              <string>H4</string>
+             </property>
+             <property name="checked">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="8">
+            <widget class="QCheckBox" name="i4">
+             <property name="text">
+              <string>I4</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="9">
+            <widget class="QCheckBox" name="j4">
+             <property name="text">
+              <string>J4</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="10">
+            <widget class="QCheckBox" name="k4">
+             <property name="text">
+              <string>K4</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="8" column="0">
+          <layout class="QGridLayout" name="gridLayout">
+           <item row="0" column="0">
+            <widget class="QCheckBox" name="a8">
+             <property name="text">
+              <string>A8</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QCheckBox" name="b8">
+             <property name="text">
+              <string>B8</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="2">
+            <widget class="QCheckBox" name="c8">
+             <property name="text">
+              <string>C8</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="3">
+            <widget class="QCheckBox" name="d8">
+             <property name="text">
+              <string>D8</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="4">
+            <widget class="QCheckBox" name="e8">
+             <property name="text">
+              <string>E8</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="5">
+            <widget class="QCheckBox" name="f8">
+             <property name="text">
+              <string>F8</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="6">
+            <widget class="QCheckBox" name="g8">
+             <property name="text">
+              <string>G8</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="7">
+            <widget class="QCheckBox" name="h8">
+             <property name="text">
+              <string>H8</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="8">
+            <widget class="QCheckBox" name="i8">
+             <property name="text">
+              <string>I8</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="9">
+            <widget class="QCheckBox" name="j8">
+             <property name="text">
+              <string>J8</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="10">
+            <widget class="QCheckBox" name="k8">
+             <property name="text">
+              <string>K8</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QTextBrowser" name="directory_edit">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>50</y>
+         <width>611</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Courier</family>
+         <pointsize>24</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(0,0,0);
+border-radius: 10px;
+border-color: rgb(0, 0, 0);
+background-color:rgb(255,255,255);</string>
+       </property>
+       <property name="html">
+        <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Courier'; font-size:24pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="adv_label">
+       <property name="geometry">
+        <rect>
+         <x>310</x>
+         <y>-20</y>
+         <width>181</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(2, 2, 2);
+color: rgb(255, 255, 255);
+border-radius: 20px;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignHCenter|Qt::AlignTop</set>
+       </property>
+      </widget>
+      <widget class="QFrame" name="advMenu">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>800</width>
+         <height>5</height>
+        </rect>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(0, 0, 0);</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QPushButton" name="root_button">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>20</y>
+          <width>121</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>12</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color:rgb(0, 0, 0);
+	border-style: outset;
+	border-width: 2px;
+	border-color: white;
+	color:rgb(255, 255, 255);
+	border-radius: 10px;
+}
+QPushButton:hover{
+	background-color:rgb(50, 50, 50);
+}
+QPushButton:pressed{
+	background-color:rgb(100, 100, 100);
+}</string>
+        </property>
+        <property name="text">
+         <string>Browse</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>Images/clipart1547514.png</normaloff>Images/clipart1547514.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>30</width>
+          <height>30</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="default_check">
+        <property name="geometry">
+         <rect>
+          <x>620</x>
+          <y>10</y>
+          <width>141</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Save as default</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>25</width>
+          <height>25</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_4">
+        <property name="geometry">
+         <rect>
+          <x>520</x>
+          <y>150</y>
+          <width>161</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgba(255, 255, 255, 0);
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Overlap [%]:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_5">
+        <property name="geometry">
+         <rect>
+          <x>510</x>
+          <y>260</y>
+          <width>151</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgba(255, 255, 255, 0);
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string> Pin Gap [mm]:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_6">
+        <property name="geometry">
+         <rect>
+          <x>410</x>
+          <y>370</y>
+          <width>221</width>
+          <height>43</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgba(255, 255, 255, 0);
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Feed Rate [mm/min]:</string>
+        </property>
+       </widget>
+       <widget class="QDoubleSpinBox" name="feed_rate">
+        <property name="geometry">
+         <rect>
+          <x>400</x>
+          <y>370</y>
+          <width>321</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="wrapping">
+         <bool>false</bool>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignBottom|Qt::AlignRight|Qt::AlignTrailing</set>
+        </property>
+        <property name="readOnly">
+         <bool>false</bool>
+        </property>
+        <property name="accelerated">
+         <bool>true</bool>
+        </property>
+        <property name="decimals">
+         <number>0</number>
+        </property>
+        <property name="minimum">
+         <double>10.000000000000000</double>
+        </property>
+        <property name="maximum">
+         <double>2000.000000000000000</double>
+        </property>
+        <property name="singleStep">
+         <double>10.000000000000000</double>
+        </property>
+        <property name="value">
+         <double>2000.000000000000000</double>
+        </property>
+       </widget>
+       <widget class="QDoubleSpinBox" name="pcb_width">
+        <property name="geometry">
+         <rect>
+          <x>290</x>
+          <y>160</y>
+          <width>211</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="wrapping">
+         <bool>false</bool>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignBottom|Qt::AlignRight|Qt::AlignTrailing</set>
+        </property>
+        <property name="readOnly">
+         <bool>false</bool>
+        </property>
+        <property name="accelerated">
+         <bool>true</bool>
+        </property>
+        <property name="decimals">
+         <number>0</number>
+        </property>
+        <property name="minimum">
+         <double>5.000000000000000</double>
+        </property>
+        <property name="maximum">
+         <double>300.000000000000000</double>
+        </property>
+        <property name="singleStep">
+         <double>5.000000000000000</double>
+        </property>
+        <property name="value">
+         <double>160.000000000000000</double>
+        </property>
+       </widget>
+       <widget class="QDoubleSpinBox" name="overlap">
+        <property name="geometry">
+         <rect>
+          <x>510</x>
+          <y>160</y>
+          <width>211</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="wrapping">
+         <bool>false</bool>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignBottom|Qt::AlignRight|Qt::AlignTrailing</set>
+        </property>
+        <property name="readOnly">
+         <bool>false</bool>
+        </property>
+        <property name="accelerated">
+         <bool>true</bool>
+        </property>
+        <property name="decimals">
+         <number>0</number>
+        </property>
+        <property name="maximum">
+         <double>100.000000000000000</double>
+        </property>
+        <property name="singleStep">
+         <double>10.000000000000000</double>
+        </property>
+        <property name="value">
+         <double>90.000000000000000</double>
+        </property>
+       </widget>
+       <widget class="QDoubleSpinBox" name="tool_diameter">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>370</y>
+          <width>321</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="wrapping">
+         <bool>false</bool>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignBottom|Qt::AlignRight|Qt::AlignTrailing</set>
+        </property>
+        <property name="readOnly">
+         <bool>false</bool>
+        </property>
+        <property name="accelerated">
+         <bool>true</bool>
+        </property>
+        <property name="singleStep">
+         <double>0.010000000000000</double>
+        </property>
+        <property name="value">
+         <double>0.100000000000000</double>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_7">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>370</y>
+          <width>221</width>
+          <height>43</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgba(255, 255, 255, 0);
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Tool Diameter [mm]:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_8">
+        <property name="geometry">
+         <rect>
+          <x>300</x>
+          <y>150</y>
+          <width>161</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgba(255, 255, 255, 0);
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>PCB w. [mm]:</string>
+        </property>
+       </widget>
+       <widget class="QDoubleSpinBox" name="pin_gap">
+        <property name="geometry">
+         <rect>
+          <x>510</x>
+          <y>260</y>
+          <width>211</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="wrapping">
+         <bool>false</bool>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignBottom|Qt::AlignRight|Qt::AlignTrailing</set>
+        </property>
+        <property name="readOnly">
+         <bool>false</bool>
+        </property>
+        <property name="accelerated">
+         <bool>true</bool>
+        </property>
+        <property name="decimals">
+         <number>0</number>
+        </property>
+        <property name="minimum">
+         <double>5.000000000000000</double>
+        </property>
+        <property name="maximum">
+         <double>100.000000000000000</double>
+        </property>
+        <property name="singleStep">
+         <double>5.000000000000000</double>
+        </property>
+        <property name="value">
+         <double>30.000000000000000</double>
+        </property>
+       </widget>
+       <widget class="QDoubleSpinBox" name="passes_iso">
+        <property name="geometry">
+         <rect>
+          <x>290</x>
+          <y>260</y>
+          <width>211</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="wrapping">
+         <bool>false</bool>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignBottom|Qt::AlignRight|Qt::AlignTrailing</set>
+        </property>
+        <property name="readOnly">
+         <bool>false</bool>
+        </property>
+        <property name="accelerated">
+         <bool>true</bool>
+        </property>
+        <property name="decimals">
+         <number>0</number>
+        </property>
+        <property name="maximum">
+         <double>100.000000000000000</double>
+        </property>
+        <property name="singleStep">
+         <double>1.000000000000000</double>
+        </property>
+        <property name="value">
+         <double>2.000000000000000</double>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_9">
+        <property name="geometry">
+         <rect>
+          <x>300</x>
+          <y>260</y>
+          <width>151</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgba(255, 255, 255, 0);
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>#Passes(iso):</string>
+        </property>
+       </widget>
+       <widget class="QTextBrowser" name="root_browse">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>100</y>
+          <width>741</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Courier</family>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 10px;</string>
+        </property>
+        <property name="html">
+         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Courier'; font-size:24pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Root directory&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_10">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>260</y>
+          <width>151</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgba(255, 255, 255, 0);
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Spin.S [rpm]: </string>
+        </property>
+       </widget>
+       <widget class="QDoubleSpinBox" name="spin_speed">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>260</y>
+          <width>211</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="wrapping">
+         <bool>false</bool>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignBottom|Qt::AlignRight|Qt::AlignTrailing</set>
+        </property>
+        <property name="readOnly">
+         <bool>false</bool>
+        </property>
+        <property name="accelerated">
+         <bool>true</bool>
+        </property>
+        <property name="decimals">
+         <number>0</number>
+        </property>
+        <property name="maximum">
+         <double>1000.000000000000000</double>
+        </property>
+        <property name="singleStep">
+         <double>10.000000000000000</double>
+        </property>
+        <property name="value">
+         <double>100.000000000000000</double>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="keep_check">
+        <property name="geometry">
+         <rect>
+          <x>530</x>
+          <y>50</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Keep values for further files</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>25</width>
+          <height>25</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QDoubleSpinBox" name="pcb_height">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>160</y>
+          <width>211</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="wrapping">
+         <bool>false</bool>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignBottom|Qt::AlignRight|Qt::AlignTrailing</set>
+        </property>
+        <property name="readOnly">
+         <bool>false</bool>
+        </property>
+        <property name="accelerated">
+         <bool>true</bool>
+        </property>
+        <property name="decimals">
+         <number>0</number>
+        </property>
+        <property name="minimum">
+         <double>5.000000000000000</double>
+        </property>
+        <property name="maximum">
+         <double>300.000000000000000</double>
+        </property>
+        <property name="singleStep">
+         <double>5.000000000000000</double>
+        </property>
+        <property name="value">
+         <double>100.000000000000000</double>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_11">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>150</y>
+          <width>161</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgba(255, 255, 255, 0);
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string> PCB h. [mm]:</string>
+        </property>
+       </widget>
+       <zorder>pcb_width</zorder>
+       <zorder>spin_speed</zorder>
+       <zorder>label_10</zorder>
+       <zorder>pin_gap</zorder>
+       <zorder>label_8</zorder>
+       <zorder>root_button</zorder>
+       <zorder>default_check</zorder>
+       <zorder>feed_rate</zorder>
+       <zorder>label_6</zorder>
+       <zorder>label_5</zorder>
+       <zorder>overlap</zorder>
+       <zorder>label_4</zorder>
+       <zorder>tool_diameter</zorder>
+       <zorder>label_7</zorder>
+       <zorder>passes_iso</zorder>
+       <zorder>label_9</zorder>
+       <zorder>root_browse</zorder>
+       <zorder>keep_check</zorder>
+       <zorder>pcb_height</zorder>
+       <zorder>label_11</zorder>
+      </widget>
+      <widget class="QPushButton" name="advanced_button">
+       <property name="geometry">
+        <rect>
+         <x>310</x>
+         <y>0</y>
+         <width>181</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+color: rgb(255, 255, 255);
+border: none</string>
+       </property>
+       <property name="text">
+        <string>Advanced</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="shutdown_button">
+       <property name="geometry">
+        <rect>
+         <x>370</x>
+         <y>400</y>
+         <width>70</width>
+         <height>70</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	background-color:rgb(0, 240, 112);
+	color:rgb(255, 255, 255);
+	border-radius: 35px;
+	border-style: outset;
+	border-width: 2px;
+}
+QPushButton:hover{
+	background-color:rgb(0, 255, 119);
+}
+QPushButton:pressed{
+	background-color:rgb(0, 143, 66);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>Images/shutdown.png</normaloff>Images/shutdown.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QSplitter" name="splitter">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>120</y>
+         <width>151</width>
+         <height>331</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="handleWidth">
+        <number>10</number>
+       </property>
+       <widget class="QPushButton" name="gcode_button">
+        <property name="font">
+         <font>
+          <family>Segoe UI Black</family>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color:rgb(0, 143, 66);
+	border-style: outset;
+	border-width: 2px;
+	border-color: white;
+	color:rgb(255, 255, 255);
+	border-radius: 10px;
+}
+QPushButton:hover{
+	background-color:rgb(0, 255, 119);
+}
+QPushButton:pressed{
+	background-color:rgb(0, 240, 112);
+}</string>
+        </property>
+        <property name="text">
+         <string>G-Code</string>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+        <property name="autoExclusive">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="isolate_button">
+        <property name="font">
+         <font>
+          <family>Segoe UI Black</family>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color:rgb(0, 240, 112);
+	border-style: outset;
+	border-width: 2px;
+	border-color: white;
+	color:rgb(255, 255, 255);
+	border-radius: 10px;
+}
+QPushButton:hover{
+	background-color:rgb(0, 255, 119);
+}
+QPushButton:pressed{
+	background-color:rgb(0, 143, 66);
+}</string>
+        </property>
+        <property name="text">
+         <string>Isolate</string>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="autoExclusive">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="remove_button">
+        <property name="font">
+         <font>
+          <family>Segoe UI Black</family>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color:rgb(0, 240, 112);
+	border-style: outset;
+	border-width: 2px;
+	border-color: white;
+	color:rgb(255, 255, 255);
+	border-radius: 10px;
+}
+QPushButton:hover{
+	background-color:rgb(0, 255, 119);
+}
+QPushButton:pressed{
+	background-color:rgb(0, 143, 66);
+}</string>
+        </property>
+        <property name="text">
+         <string>Remove</string>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="autoExclusive">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="soldermask_button">
+        <property name="font">
+         <font>
+          <family>Segoe UI Black</family>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color:rgb(0, 240, 112);
+	border-style: outset;
+	border-width: 2px;
+	border-color: white;
+	color:rgb(255, 255, 255);
+	border-radius: 10px;
+}
+QPushButton:hover{
+	background-color:rgb(0, 255, 119);
+}
+QPushButton:pressed{
+	background-color:rgb(0, 143, 66);
+}</string>
+        </property>
+        <property name="text">
+         <string>Mask</string>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+        <property name="autoExclusive">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+      <zorder>shutdown_button</zorder>
+      <zorder>label_2</zorder>
+      <zorder>label</zorder>
+      <zorder>browse_button</zorder>
+      <zorder>next_button</zorder>
+      <zorder>groupBox</zorder>
+      <zorder>label_3</zorder>
+      <zorder>directory_edit</zorder>
+      <zorder>splitter</zorder>
+      <zorder>advMenu</zorder>
+      <zorder>adv_label</zorder>
+      <zorder>advanced_button</zorder>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

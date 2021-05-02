@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2021-03-31T06:01:39Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "Adafruit PCB Reference Ruler"
+        },
+        "Owner": "Arthur Grilo da Silva Santos <Arthur.Grilo-da-Silva-Santos@hsrw.org>",
+        "Size": {
+            "X": 154.94,
+            "Y": 25.4
+        }
+    }
+}

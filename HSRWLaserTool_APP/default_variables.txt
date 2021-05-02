@@ -1,0 +1,22 @@
+/home/pi/HRSWLaserTool/Gui/GerberDesign/CAMOutputs/GerberFiles
+0.20000000000000007
+1
+100
+90
+2000
+100
+30
+160
+
+            #############
+            1. standard directory
+            2. tool diameter [mm]
+            3. number of passes (iso) [unit]
+            4. number of passes (rem) [unit]
+            5. overlap [%]
+            6. feed rate [mm/min]
+            7. spindlespeed [rpm]
+            8. pin gap [mm]
+            9. side size [mm]
+            ###########
+            
